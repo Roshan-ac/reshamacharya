@@ -9,7 +9,7 @@ const navigation = [
 
 export default function Home() {
   return (
-    <div className="flex space-y-10 flex-col items-center justify-start w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
+    <div className="flex space-y-10 flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
       <nav className="animate-fade-in">
         <ul className="flex items-center justify-center gap-4">
           {navigation.map((item) => (
@@ -23,7 +23,7 @@ export default function Home() {
           ))}
         </ul>
       </nav>
-      <div className="my-6 text-center animate-fade-in">
+      <div className="text-center animate-fade-in">
         <h2 className="text-sm text-zinc-500 ">
          Welcome To My Landing Page
         </h2>
